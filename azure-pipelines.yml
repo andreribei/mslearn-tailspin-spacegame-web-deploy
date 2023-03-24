@@ -35,6 +35,6 @@ steps:
 
 - task: PublishPipelineArtifact@1
   inputs:
-    targetPath: '$(buildPlatform)'
+    targetPath: '$(buildConfiguration)'
     artifact: 'IIS Web'
     publishLocation: 'pipeline'
